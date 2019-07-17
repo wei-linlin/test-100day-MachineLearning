@@ -1,0 +1,11 @@
+France,France,Spain,Germany
+Spain,Germany,Spain,Germany
+Germany,Spain,Germany,France
+Country,Age,Salary,Purchased
+Spain,Germany,France,Spain
+Germany,Spain,France,Germany
+France,Germany,Spain,Yes
+Spain,France,France,No
+France,Spain,Germany,Yes
+Germany,France,Germany,No
+France,Germany,France,Yes
