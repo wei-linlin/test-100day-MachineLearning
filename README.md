@@ -37,7 +37,7 @@ Day1: 数据预处理
 
 简单线性回归是确定线性函数的斜率和截距，使得误差最小化（就是下图中同一个x值对应的实际的y值与直线对应y值的偏差平方和的值最小)
 
-![02_LinearRegression](E:\code\jupyter\test-100day-MachineLearning\picture\02_LinearRegression.png)
+![02_LinearRegression](https://github.com/wei-linlin/test-100day-MachineLearning/blob/master/picture/02_LinearRegression.png)
 
 观测值: $(Hours,Score) = \{(x_i, y_i), i=1,2,...,n\}$, 确定函数 $y=b + k * x$， 
 
