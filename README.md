@@ -16,13 +16,11 @@ python版本: Python 3.7.0
 
  - 永久更改: 
     新建 `~/.ipython/profile_default/ipython_config.py` 文件并写入一下内容：
-
-  ```python
-  c = get_config()
-  c.InteractiveShell.ast_node_interactivity = "all"  # Run all nodes interactively
-  ```
-
-  
+    
+    ```python
+    c = get_config()
+    c.InteractiveShell.ast_node_interactivity = "all"  # Run all nodes interactively
+    ```
 
 Day1: 数据预处理
 ---------------------
