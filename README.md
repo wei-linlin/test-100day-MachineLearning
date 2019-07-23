@@ -22,8 +22,8 @@ python版本: Python 3.7.0
     c.InteractiveShell.ast_node_interactivity = "all"  # Run all nodes interactively
     ```
 
-Day1: 数据预处理
----------------------
+## Day1: 数据预处理
+
 1) "pd.read_csv()"  需要添加参数 "index_col"，默认第一列为index，测试数据没有，设为"false" \
    pd.read_csv(data_path, index_col=False)
 
@@ -41,10 +41,23 @@ Day1: 数据预处理
 
 使得$\sum{(y_i-y_i')^2}$的值最小，其中, $y_i'=b + k * x_i$.
 
-相关系数$R^2$为 $R^2 = 1 - \frac{u}{v}$, 其中，
+相关系数$R^2$为 $R^2 = 1 - {u}/{v}$, 其中，
 
-$u = \sum(y_i - y_i')^2$, $v = \sum(y_i - \bar{y})^2$, $\bar{y} = \frac{\sum{y_i}}{n}$
+$u = \sum(y_i - y_i')^2$, $v = \sum(y_i - \bar{y})^2$, $\bar{y} = {\sum{y_i}}/{n}$
 
-> The coefficient R^2 is defined as (1 - u/v), where u is the residual sum of squares ((y_true - y_pred) ** 2).sum() 
-> and v is the total sum of squares ((y_true - y_true.mean()) ** 2).sum()
+
+
+> https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html
+>
+> The coefficient R^2 is defined as $(1 - u/v)$, where u is the residual sum of squares ((y_true - y_pred) ** 2).sum() ​
+> and v is the total sum of squares ((y_true - y_true.mean()) ** 2).sum()​
+
+
+## Day3: 多元线性回归
+
+https://github.com/MLEveryday/100-Days-Of-ML-Code/blob/master/Code/Day%203_Multiple_Linear_Regression.md
+
+与简单线性回归相似
+
+
 
